@@ -166,7 +166,7 @@ logging.basicConfig(level=logging.DEBUG)
 - **Seção 1**: Configurações do banco de dados
 - **Seção 2**: Funções CRUD (backend)
 - **Seção 3**: Interface gráfica (frontend)
-- **Seção 4**: Execução principal
+- **Seção 4**: Execução principal  
 
 ## 📄 Licença
 

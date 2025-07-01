@@ -159,7 +159,6 @@ class NotasApp:
         self.frame_botoes.grid_columnconfigure(2, weight=1)
         self.frame_botoes.grid_columnconfigure(3, weight=1)
 
-
         # Treeview para exibir notas
         self.tree = ttk.Treeview(master, columns=("ID", "Nome", "Disciplina", "Nota"), show="headings")
         self.tree.heading("ID", text="ID")
@@ -195,7 +194,6 @@ class NotasApp:
 
         # Configure column expansion within the input frame
         parent.grid_columnconfigure(col+1, weight=1)
-
 
     def validar_campos(self, nome, disciplina, nota_str):
         """Valida os dados de entrada."""
@@ -280,7 +278,6 @@ class NotasApp:
                 messagebox.showinfo("Sucesso", "Nota deletada com sucesso!")
                 self.limpar_campos()
                 self.exibir_notas_gui()
-
 
     def selecionar_item(self, event):
         """Preenche os campos de entrada com os dados do item selecionado na Treeview."""
